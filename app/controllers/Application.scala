@@ -8,8 +8,7 @@ import play.api.mvc._
  * This controller creates an `Action` to handle HTTP requests to the
  * application's home page.
  */
-@Singleton
-class Application @Inject()(val controllerComponents: ControllerComponents) extends BaseController {
+class Application(val controllerComponents: ControllerComponents) extends BaseController {
 
   /**
    * Create an Action to render an HTML page.
