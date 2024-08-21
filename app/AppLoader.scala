@@ -1,5 +1,5 @@
-import play.api._
 import play.api.ApplicationLoader.Context
+import play.api.{ApplicationLoader, BuiltInComponentsFromContext}
 import play.filters.HttpFiltersComponents
 import router.Routes
 
